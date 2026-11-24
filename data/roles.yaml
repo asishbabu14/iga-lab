@@ -1,0 +1,94 @@
+# Birthright roles follow population rules. Requestable roles are assigned explicitly.
+roles:
+  - role_id: role-staff-email
+    name: Staff email
+    kind: birthright
+    population: all_active
+    description: Every active person receives a mailbox.
+    grants:
+      - app_id: app-email
+        entitlement_id: mailbox
+  - role_id: role-staff-wiki
+    name: Staff wiki reader
+    kind: birthright
+    population: all_active
+    description: Every active person can read the wiki.
+    grants:
+      - app_id: app-wiki
+        entitlement_id: reader
+  - role_id: role-eng-wiki-editor
+    name: Engineering wiki editor
+    kind: birthright
+    population: department
+    department: engineering
+    description: Engineering staff can edit the wiki.
+    grants:
+      - app_id: app-wiki
+        entitlement_id: editor
+  - role_id: role-finance-ledger-read
+    name: Finance ledger read
+    kind: birthright
+    population: department
+    department: finance
+    description: Finance staff can read the ledger.
+    grants:
+      - app_id: app-ledger
+        entitlement_id: ledger-read
+  - role_id: role-wiki-editor
+    name: Wiki editor
+    kind: requestable
+    description: Edit the wiki outside the engineering birthright rule.
+    grants:
+      - app_id: app-wiki
+        entitlement_id: editor
+  - role_id: role-payroll-viewer
+    name: Payroll viewer
+    kind: requestable
+    description: View payroll results.
+    grants:
+      - app_id: app-payroll
+        entitlement_id: payroll-viewer
+  - role_id: role-payroll-processor
+    name: Payroll processor
+    kind: requestable
+    description: Prepare payroll.
+    grants:
+      - app_id: app-payroll
+        entitlement_id: payroll-processor
+  - role_id: role-payroll-admin
+    name: Payroll admin
+    kind: requestable
+    description: Administer payroll configuration.
+    grants:
+      - app_id: app-payroll
+        entitlement_id: payroll-admin
+  - role_id: role-finance-clerk
+    name: Finance clerk
+    kind: requestable
+    description: Enter journal lines.
+    grants:
+      - app_id: app-ledger
+        entitlement_id: journal-entry
+  - role_id: role-finance-approver
+    name: Finance approver
+    kind: requestable
+    description: Approve journal lines.
+    grants:
+      - app_id: app-ledger
+        entitlement_id: journal-approve
+  - role_id: role-vault-operator
+    name: Vault operator
+    kind: requestable
+    description: Read shared secrets.
+    grants:
+      - app_id: app-vault
+        entitlement_id: secret-read
+  - role_id: role-vault-admin
+    name: Vault admin
+    kind: requestable
+    description: Read and write shared secrets.
+    grants:
+      - app_id: app-vault
+        entitlement_id: secret-read
+      - app_id: app-vault
+        entitlement_id: secret-write

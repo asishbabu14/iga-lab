@@ -1,0 +1,22 @@
+# Application owner certification for the wiki, including the orphan account.
+# The unreviewed row is the missed-review fixture.
+campaign_id: camp-wiki-owner-2026q1
+name: Wiki application owner review 2026 Q1
+kind: application_owner
+app_id: app-wiki
+due_at: "2026-03-15T00:00:00Z"
+default_decision: approve
+overrides:
+  - account_id: acct-app-wiki-p-038
+    entitlement_id: editor
+    decision: revoke
+    reviewer_id: p-003
+    comment: Editor access is not required for this people-ops account.
+  - account_id: acct-orphan-wiki
+    entitlement_id: reader
+    decision: revoke
+    reviewer_id: p-003
+    comment: Orphan account has no linked person. Disable it.
+unreviewed:
+  - account_id: acct-app-wiki-p-040
+    entitlement_id: reader
