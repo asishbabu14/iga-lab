@@ -1,0 +1,43 @@
+# Synthetic application catalog. Connectors are mock targets only.
+apps:
+  - app_id: app-email
+    name: Staff email
+    description: Mailbox for every active person.
+    owner_person_id: p-003
+    connector: MOCK:scim
+    entitlements:
+      - mailbox
+  - app_id: app-wiki
+    name: Staff wiki
+    description: Shared reading and editing space.
+    owner_person_id: p-003
+    connector: MOCK:scim
+    entitlements:
+      - reader
+      - editor
+  - app_id: app-payroll
+    name: Payroll
+    description: Payroll view and processing.
+    owner_person_id: p-002
+    connector: MOCK:file
+    entitlements:
+      - payroll-viewer
+      - payroll-processor
+      - payroll-admin
+  - app_id: app-ledger
+    name: General ledger
+    description: Journal entry, approval, and read access.
+    owner_person_id: p-002
+    connector: MOCK:file
+    entitlements:
+      - ledger-read
+      - journal-entry
+      - journal-approve
+  - app_id: app-vault
+    name: Secret vault
+    description: Read and write access to shared secrets.
+    owner_person_id: p-004
+    connector: MOCK:scim
+    entitlements:
+      - secret-read
+      - secret-write

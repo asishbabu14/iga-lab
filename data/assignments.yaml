@@ -1,0 +1,50 @@
+# Requestable role assignments. Birthright roles are not listed here.
+assignments:
+  - person_id: p-006
+    role_id: role-payroll-viewer
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-006
+    role_id: role-finance-approver
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-007
+    role_id: role-payroll-admin
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-008
+    role_id: role-finance-clerk
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-009
+    role_id: role-payroll-processor
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-009
+    role_id: role-payroll-admin
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-011
+    role_id: role-payroll-viewer
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-014
+    role_id: role-finance-clerk
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-014
+    role_id: role-finance-approver
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-015
+    role_id: role-finance-clerk
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-015
+    role_id: role-finance-approver
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-004
+    role_id: role-vault-admin
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-022
+    role_id: role-vault-operator
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-036
+    role_id: role-vault-operator
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-019
+    role_id: role-wiki-editor
+    granted_at: "2025-11-01T00:00:00Z"
+  - person_id: p-038
+    role_id: role-wiki-editor
+    granted_at: "2025-11-01T00:00:00Z"

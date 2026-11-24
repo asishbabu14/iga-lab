@@ -1,0 +1,17 @@
+# Exception records. A past expiry does not suppress a violation.
+# See the evidence pack for the rule that decides applied, expired, or inactive.
+exceptions:
+  - exception_id: ex-ledger-close-p015
+    policy_id: sod-ledger-maker-checker
+    person_id: p-015
+    approver_id: p-002
+    reason: Short coverage during ledger close. Compensating control is a director spot check of each approval batch.
+    expires_at: "2026-06-30T00:00:00Z"
+    status: active
+  - exception_id: ex-ledger-old-p014
+    policy_id: sod-ledger-maker-checker
+    person_id: p-014
+    approver_id: p-002
+    reason: Prior close window. The exception was not renewed.
+    expires_at: "2025-12-31T00:00:00Z"
+    status: active

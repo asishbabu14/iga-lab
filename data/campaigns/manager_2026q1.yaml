@@ -1,0 +1,24 @@
+# Manager certification fixture.
+# Items under unreviewed stay pending and become missed when the campaign closes.
+# decided_by is the assigned reviewer. A different reviewer id is rejected.
+campaign_id: camp-mgr-2026q1
+name: Manager access review 2026 Q1
+kind: manager
+due_at: "2026-03-15T00:00:00Z"
+default_decision: approve
+fallback_reviewer_id: p-001
+fallback_alternate_id: p-002
+overrides:
+  - person_id: p-014
+    role_id: role-finance-approver
+    decision: revoke
+    reviewer_id: p-002
+    comment: Approver access conflicts with journal entry duties.
+  - person_id: p-022
+    role_id: role-vault-operator
+    decision: revoke
+    reviewer_id: p-016
+    comment: Vault operator access is no longer required.
+unreviewed:
+  - person_id: p-019
+    role_id: role-wiki-editor

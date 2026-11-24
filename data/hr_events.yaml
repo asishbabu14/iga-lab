@@ -1,0 +1,28 @@
+# Thin HR feed. Joiner, mover, and leaver run without an approval step.
+events:
+  - event_id: hr-2026-0202-joiner
+    type: joiner
+    effective_at: "2026-02-02T14:00:00Z"
+    person:
+      person_id: p-051
+      display_name: Maren Cho
+      person_type: contractor
+      department: engineering
+      title: Software Contractor
+      email: maren.cho@example.test
+      uid: maren.cho
+      manager_id: p-016
+      start_date: "2026-02-02"
+  - event_id: hr-2026-0210-mover
+    type: mover
+    effective_at: "2026-02-10T14:00:00Z"
+    person_id: p-021
+    changes:
+      department: finance
+      title: Revenue Analyst
+      manager_id: p-002
+  - event_id: hr-2026-0216-leaver
+    type: leaver
+    effective_at: "2026-02-16T22:00:00Z"
+    person_id: p-030
+    end_date: "2026-02-16"

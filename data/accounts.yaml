@@ -1,0 +1,18 @@
+# Pinned accounts that are not projected from roles.
+# The orphan has no person. The legacy row is a disabled account for a terminated person.
+accounts:
+  - account_id: acct-orphan-wiki
+    app_id: app-wiki
+    person_id: null
+    username: orphan.wiki.legacy
+    status: active
+    origin: orphan
+    entitlements:
+      - reader
+  - account_id: acct-legacy-email-p-049
+    app_id: app-email
+    person_id: p-049
+    username: harley.voss
+    status: disabled
+    origin: legacy
+    entitlements: []

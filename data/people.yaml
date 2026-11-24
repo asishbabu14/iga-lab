@@ -1,0 +1,552 @@
+# Synthetic people. No real person is represented.
+people:
+  - person_id: p-001
+    display_name: Jordan Hale
+    person_type: employee
+    status: active
+    department: people-ops
+    title: Director, People Operations
+    email: jordan.hale@example.test
+    uid: jordan.hale
+    manager_id: null
+    start_date: "2018-04-02"
+    end_date: null
+  - person_id: p-002
+    display_name: Micah Ellis
+    person_type: employee
+    status: active
+    department: finance
+    title: Director, Finance
+    email: micah.ellis@example.test
+    uid: micah.ellis
+    manager_id: null
+    start_date: "2017-09-11"
+    end_date: null
+  - person_id: p-003
+    display_name: Riley Chen
+    person_type: employee
+    status: active
+    department: engineering
+    title: Director, Engineering
+    email: riley.chen@example.test
+    uid: riley.chen
+    manager_id: null
+    start_date: "2016-01-18"
+    end_date: null
+  - person_id: p-004
+    display_name: Avery Quinn
+    person_type: employee
+    status: active
+    department: security
+    title: Lead, Security Operations
+    email: avery.quinn@example.test
+    uid: avery.quinn
+    manager_id: null
+    start_date: "2019-03-04"
+    end_date: null
+  - person_id: p-005
+    display_name: Casey Brooks
+    person_type: employee
+    status: active
+    department: facilities
+    title: Lead, Facilities
+    email: casey.brooks@example.test
+    uid: casey.brooks
+    manager_id: null
+    start_date: "2019-07-22"
+    end_date: null
+  - person_id: p-006
+    display_name: Samir Patel
+    person_type: employee
+    status: active
+    department: finance
+    title: Accounting Manager
+    email: samir.patel@example.test
+    uid: samir.patel
+    manager_id: p-002
+    start_date: "2020-02-10"
+    end_date: null
+  - person_id: p-007
+    display_name: Elena Vasquez
+    person_type: employee
+    status: active
+    department: finance
+    title: Payroll Manager
+    email: elena.vasquez@example.test
+    uid: elena.vasquez
+    manager_id: p-002
+    start_date: "2020-05-18"
+    end_date: null
+  - person_id: p-008
+    display_name: Noah Kim
+    person_type: employee
+    status: active
+    department: finance
+    title: General Ledger Analyst
+    email: noah.kim@example.test
+    uid: noah.kim
+    manager_id: p-002
+    start_date: "2021-01-11"
+    end_date: null
+  - person_id: p-009
+    display_name: Priya Shah
+    person_type: employee
+    status: active
+    department: finance
+    title: Payroll Analyst
+    email: priya.shah@example.test
+    uid: priya.shah
+    manager_id: p-002
+    start_date: "2021-06-01"
+    end_date: null
+  - person_id: p-010
+    display_name: Jonah Brooks
+    person_type: employee
+    status: active
+    department: finance
+    title: Accounts Payable Analyst
+    email: jonah.brooks@example.test
+    uid: jonah.brooks
+    manager_id: p-002
+    start_date: "2022-03-14"
+    end_date: null
+  - person_id: p-011
+    display_name: Maya Ortiz
+    person_type: contractor
+    status: active
+    department: finance
+    title: Payroll Contractor
+    email: maya.ortiz@example.test
+    uid: maya.ortiz
+    manager_id: p-002
+    start_date: "2025-09-01"
+    end_date: null
+  - person_id: p-012
+    display_name: Leo Grant
+    person_type: employee
+    status: active
+    department: finance
+    title: Revenue Analyst
+    email: leo.grant@example.test
+    uid: leo.grant
+    manager_id: p-002
+    start_date: "2022-08-08"
+    end_date: null
+  - person_id: p-013
+    display_name: Nina Kowalski
+    person_type: employee
+    status: active
+    department: finance
+    title: Billing Analyst
+    email: nina.kowalski@example.test
+    uid: nina.kowalski
+    manager_id: p-002
+    start_date: "2023-01-09"
+    end_date: null
+  - person_id: p-014
+    display_name: Harper Singh
+    person_type: employee
+    status: active
+    department: finance
+    title: Journal Analyst
+    email: harper.singh@example.test
+    uid: harper.singh
+    manager_id: p-002
+    start_date: "2023-04-17"
+    end_date: null
+  - person_id: p-015
+    display_name: Owen Blake
+    person_type: employee
+    status: active
+    department: finance
+    title: Close Specialist
+    email: owen.blake@example.test
+    uid: owen.blake
+    manager_id: p-002
+    start_date: "2023-11-06"
+    end_date: null
+  - person_id: p-016
+    display_name: Taylor Nguyen
+    person_type: employee
+    status: active
+    department: engineering
+    title: Engineering Manager
+    email: taylor.nguyen@example.test
+    uid: taylor.nguyen
+    manager_id: p-003
+    start_date: "2019-10-01"
+    end_date: null
+  - person_id: p-017
+    display_name: Sage Okonkwo
+    person_type: employee
+    status: active
+    department: engineering
+    title: Engineering Manager
+    email: sage.okonkwo@example.test
+    uid: sage.okonkwo
+    manager_id: p-003
+    start_date: "2020-01-20"
+    end_date: null
+  - person_id: p-018
+    display_name: Robin Diaz
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: robin.diaz@example.test
+    uid: robin.diaz
+    manager_id: p-016
+    start_date: "2021-02-15"
+    end_date: null
+  - person_id: p-019
+    display_name: Quinn Ibarra
+    person_type: contractor
+    status: active
+    department: engineering
+    title: Software Contractor
+    email: quinn.ibarra@example.test
+    uid: quinn.ibarra
+    manager_id: p-016
+    start_date: "2025-06-02"
+    end_date: null
+  - person_id: p-020
+    display_name: Eden Park
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: eden.park@example.test
+    uid: eden.park
+    manager_id: p-016
+    start_date: "2021-09-13"
+    end_date: null
+  - person_id: p-021
+    display_name: Remy Alvarez
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: remy.alvarez@example.test
+    uid: remy.alvarez
+    manager_id: p-016
+    start_date: "2022-01-24"
+    end_date: null
+  - person_id: p-022
+    display_name: Indigo Sato
+    person_type: employee
+    status: active
+    department: engineering
+    title: Site Reliability Engineer
+    email: indigo.sato@example.test
+    uid: indigo.sato
+    manager_id: p-016
+    start_date: "2022-05-02"
+    end_date: null
+  - person_id: p-023
+    display_name: Rowan Ahmed
+    person_type: contractor
+    status: active
+    department: engineering
+    title: Data Contractor
+    email: rowan.ahmed@example.test
+    uid: rowan.ahmed
+    manager_id: p-016
+    start_date: "2025-04-07"
+    end_date: null
+  - person_id: p-024
+    display_name: Cameron Walsh
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: cameron.walsh@example.test
+    uid: cameron.walsh
+    manager_id: p-017
+    start_date: "2021-03-29"
+    end_date: null
+  - person_id: p-025
+    display_name: Finley Rossi
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: finley.rossi@example.test
+    uid: finley.rossi
+    manager_id: p-017
+    start_date: "2021-11-08"
+    end_date: null
+  - person_id: p-026
+    display_name: Drew Kapoor
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: drew.kapoor@example.test
+    uid: drew.kapoor
+    manager_id: p-017
+    start_date: "2022-07-18"
+    end_date: null
+  - person_id: p-027
+    display_name: Skyler Bennett
+    person_type: contractor
+    status: active
+    department: engineering
+    title: QA Contractor
+    email: skyler.bennett@example.test
+    uid: skyler.bennett
+    manager_id: p-017
+    start_date: "2025-08-11"
+    end_date: null
+  - person_id: p-028
+    display_name: Emerson Clarke
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: emerson.clarke@example.test
+    uid: emerson.clarke
+    manager_id: p-017
+    start_date: "2023-02-06"
+    end_date: null
+  - person_id: p-029
+    display_name: Parker Holm
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: parker.holm@example.test
+    uid: parker.holm
+    manager_id: p-017
+    start_date: "2023-06-19"
+    end_date: null
+  - person_id: p-030
+    display_name: Reese Dalton
+    person_type: employee
+    status: active
+    department: engineering
+    title: Software Engineer
+    email: reese.dalton@example.test
+    uid: reese.dalton
+    manager_id: p-017
+    start_date: "2020-09-14"
+    end_date: null
+  - person_id: p-031
+    display_name: Charlie Adeyemi
+    person_type: employee
+    status: active
+    department: engineering
+    title: Support Engineer
+    email: charlie.adeyemi@example.test
+    uid: charlie.adeyemi
+    manager_id: p-003
+    start_date: "2022-10-03"
+    end_date: null
+  - person_id: p-032
+    display_name: Jamie Pell
+    person_type: contractor
+    status: active
+    department: engineering
+    title: Support Contractor
+    email: jamie.pell@example.test
+    uid: jamie.pell
+    manager_id: p-003
+    start_date: "2025-10-01"
+    end_date: null
+  - person_id: p-033
+    display_name: Alex Moreau
+    person_type: employee
+    status: active
+    department: engineering
+    title: Release Engineer
+    email: alex.moreau@example.test
+    uid: alex.moreau
+    manager_id: p-003
+    start_date: "2021-08-23"
+    end_date: null
+  - person_id: p-034
+    display_name: Blair Santos
+    person_type: employee
+    status: active
+    department: security
+    title: Security Analyst
+    email: blair.santos@example.test
+    uid: blair.santos
+    manager_id: p-004
+    start_date: "2021-04-12"
+    end_date: null
+  - person_id: p-035
+    display_name: Hayden Cruz
+    person_type: employee
+    status: active
+    department: security
+    title: Security Analyst
+    email: hayden.cruz@example.test
+    uid: hayden.cruz
+    manager_id: p-004
+    start_date: "2022-02-28"
+    end_date: null
+  - person_id: p-036
+    display_name: Justice Pell
+    person_type: employee
+    status: active
+    department: security
+    title: Security Engineer
+    email: justice.pell@example.test
+    uid: justice.pell
+    manager_id: p-004
+    start_date: "2022-12-05"
+    end_date: null
+  - person_id: p-037
+    display_name: Arden Cole
+    person_type: contractor
+    status: active
+    department: security
+    title: Security Contractor
+    email: arden.cole@example.test
+    uid: arden.cole
+    manager_id: p-004
+    start_date: "2025-05-19"
+    end_date: null
+  - person_id: p-038
+    display_name: Logan Perez
+    person_type: employee
+    status: active
+    department: people-ops
+    title: HR Analyst
+    email: logan.perez@example.test
+    uid: logan.perez
+    manager_id: p-001
+    start_date: "2021-07-07"
+    end_date: null
+  - person_id: p-039
+    display_name: Sasha Berg
+    person_type: employee
+    status: active
+    department: people-ops
+    title: HR Analyst
+    email: sasha.berg@example.test
+    uid: sasha.berg
+    manager_id: p-001
+    start_date: "2022-09-26"
+    end_date: null
+  - person_id: p-040
+    display_name: River Stone
+    person_type: employee
+    status: active
+    department: people-ops
+    title: HR Coordinator
+    email: river.stone@example.test
+    uid: river.stone
+    manager_id: p-001
+    start_date: "2023-03-13"
+    end_date: null
+  - person_id: p-041
+    display_name: Kendall Moss
+    person_type: contractor
+    status: active
+    department: people-ops
+    title: HR Contractor
+    email: kendall.moss@example.test
+    uid: kendall.moss
+    manager_id: p-001
+    start_date: "2025-11-03"
+    end_date: null
+  - person_id: p-042
+    display_name: Phoenix Lane
+    person_type: employee
+    status: active
+    department: facilities
+    title: Facilities Coordinator
+    email: phoenix.lane@example.test
+    uid: phoenix.lane
+    manager_id: p-005
+    start_date: "2020-06-15"
+    end_date: null
+  - person_id: p-043
+    display_name: Dakota Shaw
+    person_type: employee
+    status: active
+    department: facilities
+    title: Facilities Technician
+    email: dakota.shaw@example.test
+    uid: dakota.shaw
+    manager_id: p-005
+    start_date: "2021-12-01"
+    end_date: null
+  - person_id: p-044
+    display_name: Marlow West
+    person_type: employee
+    status: active
+    department: facilities
+    title: Facilities Technician
+    email: marlow.west@example.test
+    uid: marlow.west
+    manager_id: p-005
+    start_date: "2023-08-21"
+    end_date: null
+  - person_id: p-045
+    display_name: Tatum Reed
+    person_type: contractor
+    status: active
+    department: facilities
+    title: Facilities Contractor
+    email: tatum.reed@example.test
+    uid: tatum.reed
+    manager_id: p-005
+    start_date: "2025-07-14"
+    end_date: null
+  - person_id: p-046
+    display_name: Winter Blake
+    person_type: employee
+    status: active
+    department: procurement
+    title: Procurement Analyst
+    email: winter.blake@example.test
+    uid: winter.blake
+    manager_id: p-002
+    start_date: "2022-04-04"
+    end_date: null
+  - person_id: p-047
+    display_name: Oakley Finn
+    person_type: employee
+    status: active
+    department: procurement
+    title: Buyer
+    email: oakley.finn@example.test
+    uid: oakley.finn
+    manager_id: p-002
+    start_date: "2023-09-18"
+    end_date: null
+  - person_id: p-048
+    display_name: Bellamy Cho
+    person_type: contractor
+    status: active
+    department: procurement
+    title: Procurement Contractor
+    email: bellamy.cho@example.test
+    uid: bellamy.cho
+    manager_id: p-002
+    start_date: "2025-03-03"
+    end_date: null
+  - person_id: p-049
+    display_name: Harley Voss
+    person_type: employee
+    status: terminated
+    department: engineering
+    title: Former Engineer
+    email: harley.voss@example.test
+    uid: harley.voss
+    manager_id: p-017
+    start_date: "2019-05-06"
+    end_date: "2025-08-29"
+  - person_id: p-050
+    display_name: Corey Lang
+    person_type: contractor
+    status: terminated
+    department: finance
+    title: Former Close Contractor
+    email: corey.lang@example.test
+    uid: corey.lang
+    manager_id: p-006
+    start_date: "2024-01-08"
+    end_date: "2025-06-30"

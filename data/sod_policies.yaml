@@ -1,0 +1,22 @@
+# Separation of duties policies. Evaluation uses effective access.
+policies:
+  - policy_id: sod-ledger-maker-checker
+    name: Ledger maker-checker
+    severity: high
+    description: The same person must not enter a journal line and approve it.
+    left:
+      app_id: app-ledger
+      entitlement_id: journal-entry
+    right:
+      app_id: app-ledger
+      entitlement_id: journal-approve
+  - policy_id: sod-payroll-admin-processor
+    name: Payroll admin and processor
+    severity: medium
+    description: The same person must not administer payroll and process it.
+    left:
+      app_id: app-payroll
+      entitlement_id: payroll-processor
+    right:
+      app_id: app-payroll
+      entitlement_id: payroll-admin
